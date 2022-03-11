@@ -15,7 +15,7 @@ const bubbleSort = function(numbers){
 
     const arrayLength = numbers.length;
     
-    for(let i = 0; i< arrayLength; i ++){
+    for(let i = 0; i< arrayLength; i++){
         for (j = 0 ; j< arrayLength; j++){
             if(numbers[j] > numbers[j+1]){
                 let temp = numbers[j];

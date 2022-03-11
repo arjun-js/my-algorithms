@@ -19,7 +19,7 @@ const insertionSort = (numbers)=>{
     for(let i=0; i< length; i++){
         if(numbers[i] <= numbers[0]){
             numbers.unshift(numbers.splice(i,1)[0]);
-        }
+        } 
         else {
             for (let j=1; j<i; j++){
                 if(numbers[i] > numbers[j-1] && numbers[i] <= numbers[j]){
